@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tranxuanqui.danhgiarenluyenlv">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity.CanBoPhongCTHSSV.ChamDiemCTSVActivity"></activity>
+        <activity android:name=".Activity.Admin.ShowPointSV" />
+        <activity android:name=".Activity.Admin.UpdateTCActivity" />
+        <activity android:name=".Activity.Admin.UpdateDMActivity" />
+        <activity android:name=".Activity.Admin.AddTieuChiActivity" />
+        <activity android:name=".Activity.Admin.AddDanhMucActivity" />
+        <activity android:name=".Activity.Admin.ListTieuChiActivity" />
+        <activity android:name=".Activity.Admin.ListDanhMucActivity" />
+        <activity android:name=".Activity.Admin.ListRoleActivity" />
+        <activity android:name=".Activity.Admin.UpdateUserActivity" />
+        <activity android:name=".Activity.Admin.AddUserActivity" />
+        <activity android:name=".Activity.CoVanHocTap.ShowPointGVActivity" />
+        <activity android:name=".Activity.Admin.LopListActivity" />
+        <activity android:name=".Activity.CanBoPhongCTHSSV.CTSVActivity" />
+        <activity android:name=".Activity.CoVanHocTap.GiangVienActivity" />
+        <activity android:name=".Activity.Admin.ShowPointActivity" />
+        <activity android:name=".Activity.Admin.UserListActivity" />
+        <activity android:name=".Activity.SinhVien.SV_DanhGiaActivity" />
+        <activity android:name=".Activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

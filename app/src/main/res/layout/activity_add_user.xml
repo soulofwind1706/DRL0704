@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Admin.AddUserActivity">
+    <TextView
+        android:layout_gravity="center"
+        android:text="THÊM USER"
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:text="Tên user: "
+        android:textSize="20dp"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edttenadduser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Email user: "
+            android:textSize="20dp"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/edtemailadduser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Pass user: "
+            android:textSize="20dp"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/edtpassadduser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="ID role user: "
+            android:textSize="20dp"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/edtidroleadduser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="ID lớp user: "
+            android:textSize="20dp"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/edtidlopadduser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:text="ADD"
+            android:id="@+id/btnadduser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:text="EXIT"
+            android:id="@+id/btnexit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>

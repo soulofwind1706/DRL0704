@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/user"
+        android:title= "USER"></item>
+    <item android:id="@+id/classs"
+        android:title= " CLASS" />
+    <item android:id="@+id/roleu"
+        android:title= " ROLE" />
+    <item android:id="@+id/danhmuca"
+        android:title= " DANH MỤC" />
+    <item android:id="@+id/tieuchia"
+        android:title= " TIÊU CHÍ" />
+</menu>

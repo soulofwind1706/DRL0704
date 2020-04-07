@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:background="#F0FFFFFF"
+            android:text="Tiêu chí"
+            android:padding="10dp"
+            android:id="@+id/txtTC"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/txtmaxdiemtc"
+            android:gravity="center"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"/>
+        <CheckBox
+            android:id="@+id/chkChon"
+            android:checked="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+<!--        <EditText-->
+<!--            android:hint="Điểm"-->
+<!--            android:id="@+id/edtDiemcham"-->
+<!--            android:layout_width="50dp"-->
+<!--            android:layout_height="wrap_content"/>-->
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Admin.UpdateTCActivity">
+    <TextView
+        android:layout_gravity="center"
+        android:text="CẬP NHẬP TIÊU CHÍ"
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Nội dung: "
+            android:textSize="20dp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/edtupnoidungTC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Max điểm: "
+            android:textSize="20dp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/edtupmaxdiemTC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="ID mục đánh giá: "
+            android:textSize="20dp"
+            android:layout_width="100dp"
+            android:layout_height="70dp"/>
+        <EditText
+            android:id="@+id/edtupidmucdanhgia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:text="UPDATE"
+            android:id="@+id/btnupTC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:text="EXIT"
+            android:id="@+id/btnexitupTC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>

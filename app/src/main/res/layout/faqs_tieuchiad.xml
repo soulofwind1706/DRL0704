@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:background="#F0FFFFFF"
+            android:text="Tiêu chí"
+            android:padding="10dp"
+            android:id="@+id/txtTCad"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/txtmaxdiemtcad"
+            android:gravity="center"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:text="UP"
+            android:id="@+id/btnUptieuchiad"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:text="DEL"
+            android:id="@+id/btnDeltieuchiad"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
